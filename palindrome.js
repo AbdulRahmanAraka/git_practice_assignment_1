@@ -3,9 +3,9 @@ let str="naman";
 
 let str_rev="";
 
-for(let i=str.length-1;i<=str.length;i--){
+for(let i=str.length-1;i>=0;i--){
 
-    if(i==-1){
+    if(i==1){
         break;
     }
 
